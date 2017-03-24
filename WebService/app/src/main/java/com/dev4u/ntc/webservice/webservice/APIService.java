@@ -22,7 +22,7 @@ public interface APIService {
     // Server return json array
     @GET("/student_manager/api.php")
     Call<List<Student>> getStudents();
-
+    
     // GET student by id student from server
     // Server return json object
     @GET("/student_manager/api.php")
