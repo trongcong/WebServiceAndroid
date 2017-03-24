@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dev4u.ntc.webservice.MainActivity">
+
+    <Button
+        android:id="@+id/btnGetStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get student by ID" />
+
+    <Button
+        android:id="@+id/btnGetStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get all students" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hello World!" />
+    </ScrollView>
+
+</LinearLayout>
+
+
